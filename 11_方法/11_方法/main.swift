@@ -83,3 +83,36 @@ ovenLight.next()
 
 
 
+//: 类方法 结构体方法
+// 如果你想访问类的属性 或者结构体的属性 就需要使用 static 或者 class 前缀来限制它：
+// static var highestUnlockedLevel = 1
+struct LevelTracker {
+    static var highestUnlockedLevel = 1
+    var currentLevel = 1
+    
+    static func unlock(_ level: Int) {
+        if level > highestUnlockedLevel { highestUnlockedLevel = level }
+    }
+    
+    static func isUnlock(_ level: Int) -> Bool {
+        return level <= highestUnlockedLevel
+    }
+    
+    @discardableResult  // 忽略返回值
+    mutating func advance(to level: Int) -> Bool {
+        if LevelTracker.isUnlock(level) {
+            currentLevel = level
+            return true
+        }  else {
+            return false
+        }
+    }
+}
+
+var levelTracker = LevelTracker(currentLevel: 1)
+levelTracker.advance(to: 2)
+
+
+
+
+
