@@ -29,7 +29,7 @@ print(rangeOfThreeItems.firstValue)
 
 
 
-//: 延迟属性
+//: 延迟存储属性
 class DataImporter {
     var fileName = "data.txt"
 }
