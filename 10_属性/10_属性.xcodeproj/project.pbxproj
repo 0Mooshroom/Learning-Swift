@@ -237,7 +237,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = L66HLEX6WU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -246,7 +246,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = L66HLEX6WU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -269,6 +269,7 @@
 				F5C11D3A1F4F27E700BD55E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
