@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x100380db7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "merged protocol witness for Swift.Sequence.dropFirst(Swift.Int) -&gt; A.SubSequence in conformance &lt;A, B where A: Swift.Sequence, B: Swift.Sequence&gt; Swift.Zip2Sequence&lt;A, B&gt; : Swift.Sequence in Swift"
+                  moduleName = "16_&#x9519;&#x8bef;&#x5904;&#x7406;"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "167">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
